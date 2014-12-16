@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                       Labyrinth-Demo
-version:                    1.03
+version:                    1.04
 abstract:                   Labyrinth Website Management Framework - Demo Website
 author:
   - Barbie <barbie@cpan.org>
@@ -11,8 +11,8 @@ installdirs:                site
 
 requires:
   perl:                     5.006
-  Labyrinth:	              5.20
-  Labyrinth::Plugin::Core:	5.14
+  Labyrinth:	            5.29
+  Labyrinth::Plugin::Core:	5.18
 recommends:
   Test::CPAN::Meta:         0
   Test::CPAN::Meta::JSON:   0
@@ -25,7 +25,7 @@ build_requires:
 provides:
   Labyrinth::Demo:
     file:     lib/Labyrinth/Demo.pm
-    version:  1.03
+    version:  1.04
 
 no_index:
   directory:
@@ -40,4 +40,4 @@ resources:
 meta-spec:
    version:   1.4
    url:       http://module-build.sourceforge.net/META-spec-v1.4.html
-generated_by: Hand 1.0
+generated_by: The Hand of Barbie 1.0
